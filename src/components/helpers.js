@@ -5,7 +5,7 @@ const createDivWithId = (nameId,parentDiv) => {
 };
 
 const renderComponent = (element, component) => {
-    return (element.innerHtml = component());
+    return (element.innerHTML = component());
 };
 
 const menuListener = (menu, navegation) => {
