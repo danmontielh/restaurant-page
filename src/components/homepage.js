@@ -1,6 +1,6 @@
 const homePage = () => {
     return `
-    <h1>Burger Son's</h1>
+    <h1 class="text-center">Welcome to Burger Son's</h1>
     `;
 };
 
