@@ -8,7 +8,7 @@ import menuCard from "./components/menu";
 import {
   createDivWithId,
   renderComponent,
-  menuListener
+  menuListener,
 } from "./components/helpers";
 
 // SET Header and divs
@@ -24,7 +24,7 @@ renderComponent(app, homePage);
 
 // Navegation Handler Function
 
-const handleNavegation = $event => {
+const handleNavegation = ($event) => {
   if ($event.target.innerText === "Contact") {
     renderComponent(app, contact);
   } else if ($event.target.innerText === "About") {

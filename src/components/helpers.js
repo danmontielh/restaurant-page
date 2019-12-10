@@ -1,5 +1,5 @@
 const createDivWithId = (nameId, parentDiv) => {
-  let newDiv = document.createElement("div");
+  const newDiv = document.createElement("div");
   newDiv.id = nameId;
   document.getElementById(parentDiv).appendChild(newDiv);
 };
