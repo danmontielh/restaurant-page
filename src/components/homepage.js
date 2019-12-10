@@ -1,7 +1,7 @@
 const homePage = () => {
-    return `
+  return `
     <h1 class="text-center">Welcome to Burger Son's</h1>
     `;
 };
 
-export {homePage as default };
+export { homePage as default };

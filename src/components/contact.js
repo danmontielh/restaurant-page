@@ -1,5 +1,5 @@
 const contact = () => {
-    return `
+  return `
     <div class="container content-body">
     <form>
     <div class="form-group">
@@ -16,4 +16,4 @@ const contact = () => {
    `;
 };
 
-export {contact as default}
+export { contact as default };
